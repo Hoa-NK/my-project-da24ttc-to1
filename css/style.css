@@ -34,6 +34,8 @@ th, td {
 	width: 200px;
 	height: 30px;
 	border: 1px solid black;
+	border-radius: 7px;
+	padding-left: 7px;
 	}
 .demuc {
 	font-size: 20px;
