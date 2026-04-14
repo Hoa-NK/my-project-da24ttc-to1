@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+}
+body {
+    background-color: #BEBEBE;
+}
+.container {
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.title {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.frmLogin {
+    margin-top:;
+}
+.formgroup {
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.formcontrol {
+    width: 96%;
+    height: 15px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:5px;
+    padding-left: 7px;
+}
+.button {
+    background-color: #BEBEBE;
+    margin: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: center;
+    
+}
+label {
+    font-size: 11px;
+    margin-left: 5px;
+}
