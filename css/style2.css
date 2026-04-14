@@ -39,6 +39,11 @@ body {
     padding:5px;
     padding-left: 7px;
 }
+.group_buttons {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px;
+}
 .button {
     background-color: #BEBEBE;
     margin: 5px;
@@ -46,8 +51,7 @@ body {
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
-    align-self: center;
-    
+    cursor: pointer;
 }
 label {
     font-size: 11px;
