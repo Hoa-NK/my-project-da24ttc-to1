@@ -4,56 +4,57 @@
     margin: 0;
 }
 body {
-    background-color: #BEBEBE;
+    background-color: #f0f2f5;
+    padding-top: 75px;
 }
 .container {
-    background-color: white;
+    width: 900px;
+    background-color: steelblue;
     margin-top: 30px;
-    margin-right: 150px;
-    margin-left: 150px;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 15px;
-
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+.container2 {
+    width: auto;
+    padding: 38px;
+    background-color: white;
+    border-radius: 20px;
 }
 .title {
-    font-size: 20px;
+    font-size: 42px;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 10px;
-    
-}
-.frmLogin {
-    margin-top:;
+    margin-bottom: 30px;
 }
 .formgroup {
-    margin-bottom: 5px;
-    margin-top: 2px;
+    margin-bottom: 18px;
 }
 .formcontrol {
-    width: 96%;
-    height: 15px;
-    display: block;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding:5px;
-    padding-left: 7px;
+    width: 570px;
+    padding: 8px;
+    border: 0px;
+    border-bottom: 1px solid black; 
+    font-size: 16px;
+    outline: none;
 }
-.group_buttons {
-    display: flex;
-    justify-content: flex-end; 
-    margin-top: 10px;
+.button-group {
+    text-align: center;
+    margin-top: 30px;
 }
 .button {
-    background-color: #BEBEBE;
-    margin: 5px;
-    margin-left: 10px;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
+    padding: 11px;
     cursor: pointer;
+    font-weight: bold;
+    margin: 0 8px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    font-size: 20px;
 }
 label {
-    font-size: 11px;
+    font-size: 20px;
     margin-left: 5px;
+    width: 195px;
+    display: inline-block;
+
 }
