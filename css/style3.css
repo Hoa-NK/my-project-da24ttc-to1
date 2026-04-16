@@ -8,11 +8,17 @@ body {
     padding-top: 75px; 
 }
 .container {
-    background-color: #ffffff;
+    background-color: steelblue;
     width: 900px; 
     margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 20px; 
+}
+.container2 {
+    width: auto;
     padding: 38px;
-    border-radius: 15px; 
+    background-color: white;
+    border-radius: 20px;
 }
 .title {
     text-align: center;
