@@ -3,38 +3,32 @@
 <head>		
     <meta charset="utf-8">		
     <title>Thiết kế form đăng ký</title>
-    <link rel="stylesheet" href="../css/style5.css">
 </head>
 <body>
     <form id="formbangcc">
         <h2>In bảng cửu chương</h2>
         <div class="divgroup">
             <div class="divtxt">
-                <label for="txt">Nhập số:</label>
-                <input class="formcontrol" name="txtSo" type="textfield" placeholder="Nhập số">    
+                <label for="txtSo">Nhập số:</label>
+                <input class="formcontrol" name="txtSo" id="txtSo" type="number" placeholder="Nhập số">    
             </div>
             <div>
-                <button style="button" id="bt">In</button>
+                <button type="button" id="bt">In</button>
             </div>
         </div>
-        <div id="kq">
-
-
-        </div>
+        <div id="kq"></div>
     </form>
     <script>
-        const btn=document.getElementById(bt);
-        const frm=document.forms("formbangcc");
-        const myTextField=frm.element[0];
-        let num=parseInt(myTextField.value);
-        let kq = "";
-        btn.onclick=function() {
-            for(let i = 1; i < 10; i++) {
-            kq += num"x"i"=" num*i + <br>;
+        const btn = document.getElementById("bt");
+        btn.onclick = function() {
+            const myTextField = document.getElementById("txtSo");
+            let num = parseInt(myTextField.value);
+            let kq = "";
+            for (let i = 1; i <= 10; i++) {
+                kq += num + " x " + i + " = " + (num * i) + "<br>";
             }
-            document.getElementById("kq").innerHTML=kq;
+            document.getElementById("kq").innerHTML = kq;
         }
-        
     </script>
 </body>
 </html>
