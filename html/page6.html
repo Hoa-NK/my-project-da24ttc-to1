@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">	
+<head>		
+    <meta charset="utf-8">		
+    <title>Bảng cửu chương</title>
+    <link rel="stylesheet" href="../css/style6.css">
+</head>
+<body>
+    <script>
+        const newDiv=document.createElement("div");
+        newDiv.setAttribute("class","product-item"); //gán class=product-item cho newDiv
+        
+        const productImageNode=document.createElement("img")
+        productImageNode.setAttribute("src","../assets/images/batlua.jpg")
+        productImageNode.setAttribute("alt","Ảnh sản phẩm")
+        productImageNode.setAttribute("class","product-image-node")
+
+        const productImage=document.createElement("div")
+        productImage.appendChild(productImageNode)
+        productImage.setAttribute("class","product-image")
+
+        const productName=document.createElement("h2")
+        productName.innerText="Bật lửa BIC siêu cấp"
+        const productPrice=document.createElement("p")
+        productPrice.innerText="4.980đ"
+        const productLink=document.createElement("a")
+        productLink.setAttribute("href","https://www.bachhoaxanh.com/dung-cu-kep-gap/bat-lua-bic-j3")
+        productLink.innerText = "Xem chi tiết sản phẩm";
+        productLink.setAttribute("target", "_blank");
+
+        const productInfor=document.createElement("div");
+        productInfor.setAttribute("class","product-infor")
+        productInfor.appendChild(productName)
+        productInfor.appendChild(productPrice)
+        productInfor.appendChild(productLink)
+
+        newDiv.appendChild(productImage);
+        newDiv.appendChild(productInfor);//gán newText vào newDiv
+        document.body.appendChild(newDiv); //gán newDiv vào body
+    </script>
+</body>
+</html>
